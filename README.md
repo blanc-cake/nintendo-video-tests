@@ -6,6 +6,6 @@ This repo aims to explore methods of replicating this service by feeding archive
 
 # Requirements
 
-⋅⋅* An installation of [Charles Proxy](https://www.charlesproxy.com/)
-⋅⋅* A Nintendo 3DS running [CFW](https://3ds.hacks.guide/)
-⋅⋅* A copy of Nintendo Video installed to said 3DS (Can be found on certain sites)
++ An installation of [Charles Proxy](https://www.charlesproxy.com/)
++ A Nintendo 3DS running [CFW](https://3ds.hacks.guide/)
++ A copy of Nintendo Video installed to said 3DS (Can be found on certain sites)
