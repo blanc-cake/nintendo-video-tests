@@ -58,7 +58,7 @@ For this, open up '**Proxy** > **Recording Settings** > **Include**' and add thr
 
 # Method 2 - Map Remote and Include Requests
 
-(This method assumes you have a server set up)
+(This method assumes you have a server setup)
 
 Similarly to what was mentioned in Method 1, Charles has a feature that allows you to respond to request with a locally stored file. This is what we'll be using to feed BOSS data stored on our server to Nintendo Video.
 
