@@ -44,7 +44,5 @@ To quote 3dbrew on the connection test sequence -
 
 Charles has a feature that allows you to respond to request with a locally stored file. This is what we'll be using to feed BOSS data stored on our PC to Nintendo Video. Seeing as we only have 3 backups of ESE_MD1 for USA region English/Spanish, we will be using them.
 
-To do this -
-
-1. In charles, open up '**Tools** > **Map Local**' and click '**Add**'. In the menu that opens, input the following - 
+To do this, in Charles open up '**Tools** > **Map Local**' and click '**Add**'. In the menu that opens, input the following - 
 <img src="https://github.com/blanc-cake/nintendo-video-tests/blob/main/tutorial%20images/local_mapping.PNG" width="436.5" height="406">
