@@ -2,9 +2,9 @@
 
 Nintendo Video is a discontinued service for the Nintendo 3DS, used to download videos for viewing via the console.
 
-This repo aims to explore methods of replicating this service by feeding archived BOSS (Spotpass) files to the application through the use of a web debugger.
+This repo aims to explore methods of replicating this service by feeding archived BOSS (Spotpass) files to the application through the use of a web debugger. This is just the basic setup for testing, and is not guaranteed to work.
 
-The below tutorial assumes you are using Windows 10
+(The below tutorial assumes you are using Windows 10)
 
 # Requirements
 
@@ -23,7 +23,7 @@ If everything went smoothly, saving your settings and preforming a connection te
 
 # Map Local
 
-After being set up, Nintendo Video will attempt a connection to several URLs.
+When set up, (do not do this yet) Nintendo Video will attempt a connection to several URLs.
 
 `http://pubus-p.est.c.app.nintendowifi.net/1/49/1/ESE_MD1`
 
@@ -42,7 +42,14 @@ As well as the aforementioned URLs.
 To quote 3dbrew on the connection test sequence -
 > The server responds with either a 403 or 404 error code, where 403 means that user's region (determined by IP, I guess) doesn't match the region specified by COUNTRYCODE and COUNTRYSUBDOMAIN and 404 means that everything's OK.
 
-Charles has a feature that allows you to respond to request with a locally stored file. This is what we'll be using to feed BOSS data stored on our PC to Nintendo Video. Seeing as we only have 3 backups of ESE_MD1 for USA region English/Spanish, we will be using them.
+Charles has a feature that allows you to respond to request with a locally stored file. This is what we'll be using to feed BOSS data stored on our PC to Nintendo Video. Seeing as we only have 3 backups of ESE_MD1 for USA region English/Spanish, we will be using one of them.
 
 To do this, in Charles open up '**Tools** > **Map Local**' and click '**Add**'. In the menu that opens, input the following - 
 <img src="https://github.com/blanc-cake/nintendo-video-tests/blob/main/tutorial%20images/local_mapping.PNG" width="436.5" height="406">
+
+Click '**OK**'.
+
+Optionally, you can also choose to only record connections from the URLs that we will be focusing on, ignoring others.
+
+For this, open up '**Proxy** > **Recording Settings** > **Include**' and add three URLs. One **http** on port **80** for `*.nintendowifi.net`, and two **https** on port **443** for `*.nintendo.net` and `*.nintendowifi.net`. Although the latter two aren't nessecary, they can help to visualise things.
+<img src="https://github.com/blanc-cake/nintendo-video-tests/blob/main/tutorial%20images/include_requests.PNG" width="540" height="352">
