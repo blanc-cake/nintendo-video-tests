@@ -42,8 +42,9 @@ As well as the aforementioned URLs.
 To quote 3dbrew on the connection test sequence -
 > The server responds with either a 403 or 404 error code, where 403 means that user's region (determined by IP, I guess) doesn't match the region specified by COUNTRYCODE and COUNTRYSUBDOMAIN and 404 means that everything's OK.
 
-Charles has a feature that allows you to respond to request with a locally stored file. This is what we'll be using to feed BOSS data stored on our PC to Nintendo Video. Seeing as we only have
+Charles has a feature that allows you to respond to request with a locally stored file. This is what we'll be using to feed BOSS data stored on our PC to Nintendo Video. Seeing as we only have 3 backups of ESE_MD1 for USA region English/Spanish, we will be using them.
 
 To do this -
 
-1. In charles, open up '**Tools** > **Map Local**'
+1. In charles, open up '**Tools** > **Map Local**' and click '**Add**'. In the menu that opens, input the following - 
+![alt text](https://github.com/https://github.com/blanc-cake/nintendo-video-tests/blob/main/tutorial%20images/local_mapping.PNG "Local Mapping")
