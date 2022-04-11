@@ -60,7 +60,7 @@ For this, open up '**Proxy** > **Recording Settings** > **Include**' and add thr
 
 (This method assumes you have a server setup)
 
-Similarly to what was mentioned in Method 1, Charles has a feature that allows you to respond to request with a file stored on a server differing in domain name than that of the reqest. This feature is what we'll be using to feed BOSS data stored on said server to Nintendo Video.
+Similarly to what was mentioned in Method 1, Charles has a feature that allows you to respond to request with a file stored on a server differing in domain name from that of the reqest. This feature is what we'll be using to feed BOSS data stored on said server to Nintendo Video.
 
 To do this, in Charles open up '**Tools** > **Map Remote**' and click '**Add**'. In the menu that opens input the following, mapping to the BOSS data within your server that.
 
