@@ -21,9 +21,9 @@ This repo aims to explore methods of replicating this service by feeding archive
 
 If everything went smoothly, saving your settings and preforming a connection test should prompt you to accept or deny a connection from a local IP (Choose accept), then display a connection to 'http://conntest.nintendowifi.net/' on Charles. If so, you should now be able to move on to the following steps.
 
-# Map Local and Include Requests
+# Method 1 - Map Local and Include Requests
 
-When set up, (do not do this yet) Nintendo Video will attempt a connection to several URLs.
+When installed and set up (do not do this yet), Nintendo Video will attempt a connection to several URLs.
 
 `http://pubus-p.est.c.app.nintendowifi.net/1/49/1/ESE_MD1`
 
@@ -47,6 +47,24 @@ Charles has a feature that allows you to respond to request with a locally store
 To do this, in Charles open up '**Tools** > **Map Local**' and click '**Add**'. In the menu that opens input the following, mapping to your locally downloaded BOSS data - 
 
 <img src="https://github.com/blanc-cake/nintendo-video-tests/blob/main/tutorial%20images/local_mapping.PNG" width="436.5" height="406">
+
+Click '**OK**'.
+
+Optionally, you can also choose to only record connections from the URLs that we will be focusing on, ignoring others.
+
+For this, open up '**Proxy** > **Recording Settings** > **Include**' and add three URLs. One **http** on port **80** for `*.nintendowifi.net`, and two **https** on port **443** for `*.nintendo.net` and `*.nintendowifi.net`. Although the latter two aren't nessecary, they can help to visualise things.
+
+<img src="https://github.com/blanc-cake/nintendo-video-tests/blob/main/tutorial%20images/include_requests.PNG" width="540" height="352">
+
+# Method 2 - Map Remote and Include Requests
+
+(This method assumes you have a server set up)
+
+Similarly to what was mentioned in Method 1, Charles has a feature that allows you to respond to request with a locally stored file. This is what we'll be using to feed BOSS data stored on our server to Nintendo Video.
+
+To do this, in Charles open up '**Tools** > **Map Remote**' and click '**Add**'. In the menu that opens input the following, mapping to the BOSS data within your server that.
+
+<img src="https://github.com/blanc-cake/nintendo-video-tests/blob/main/tutorial%20images/remote_mapping.PNG" width="422" height="522">
 
 Click '**OK**'.
 
