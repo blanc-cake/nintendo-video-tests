@@ -44,7 +44,7 @@ To quote 3dbrew on the connection test sequence -
 
 Charles has a feature that allows you to respond to request with a locally stored file. This is what we'll be using to feed BOSS data stored on our PC to Nintendo Video. Seeing as we only have 3 backups of ESE_MD1 for USA region English/Spanish, we will be using one of them.
 
-To do this, in Charles open up '**Tools** > **Map Local**' and click '**Add**'. In the menu that opens input the following, mapping to your locally downloaded BOSS data - 
+To do this, in Charles open up '**Tools** > **Map Local**' and click '**Add**'. In the menu that opens input the following - 
 
 <img src="https://github.com/blanc-cake/nintendo-video-tests/blob/main/tutorial%20images/local_mapping.PNG" width="436.5" height="406">
 
@@ -62,7 +62,7 @@ For this, open up '**Proxy** > **Recording Settings** > **Include**' and add thr
 
 Similarly to what was mentioned in Method 1, Charles has a feature that allows you to respond to request with a file stored on a server differing in domain name from that of the reqest. This feature is what we'll be using to feed BOSS data stored on said server to Nintendo Video.
 
-To do this, in Charles open up '**Tools** > **Map Remote**' and click '**Add**'. In the menu that opens input the following, mapping to the BOSS data within your server that.
+To do this, in Charles open up '**Tools** > **Map Remote**' and click '**Add**'. In the menu that opens input the following -
 
 <img src="https://github.com/blanc-cake/nintendo-video-tests/blob/main/tutorial%20images/remote_mapping.PNG" width="422" height="522">
 
