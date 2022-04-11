@@ -76,14 +76,14 @@ For this, open up '**Proxy** > **Recording Settings** > **Include**' and add thr
 
 # Install and test
 
-We can now get to testing the Charles setup. Install your CIA of Nintendo Video and open it up.
+We can now get to testing the Charles setup. With Charles 'recording', install your CIA of Nintendo Video and open it up.
 
 Obviously, choose to receive both videos over Spotpass, as well as notifications for Nintendo Video.
 
-After setting up Nintendo Video, leave your 3DS open on the main Nintendo Video menu for a minute or two, and it will begin attemption to download BOSS data. If all is right, it should begin downloading your locally stored ESE_MD1 and fail to download MD2, MD3 and MD4. You should also recieve a notification telling you that Nintendo Video is moving.
+After setting up Nintendo Video, leave your 3DS open on the main menu for a minute or two, and it will begin attempting to download BOSS data. If all is right, it should begin downloading your locally/remotely stored ESE_MD1 and fail to download MD2, MD3 and MD4. You should've also recieved a notification telling you that Nintendo Video is moving.
 
 <img src="https://github.com/blanc-cake/nintendo-video-tests/blob/main/tutorial%20images/IMG20220407124904.jpg" width="445.7" height="594.2">
 
-My console's region is AUS - English, so that may be one of the reasons why videos don't show up after being downloaded. However the results will differ probably depending on the unix hex timestamp at 0xC, the consoles set date, the consoles region, or something entirely different.
+My console's region is AUS - English, so that may be one of the reasons why videos don't show up after being downloaded. However the results will probably differ depending on the datas hex timestamp, the set date/time, the consoles region, or something entirely different.
 
 Huge thanks to the contributers of [Nintendo Videos page on 3dbrew](https://www.3dbrew.org/wiki/Nintendo_Video) (especially popoffka) for their hard work. I really recommend giving it a read.
