@@ -47,4 +47,4 @@ Charles has a feature that allows you to respond to request with a locally store
 To do this -
 
 1. In charles, open up '**Tools** > **Map Local**' and click '**Add**'. In the menu that opens, input the following - 
-![alt text](https://github.com/blanc-cake/nintendo-video-tests/blob/main/tutorial%20images/local_mapping.PNG "Local Mapping")
+<img src="https://github.com/blanc-cake/nintendo-video-tests/blob/main/tutorial%20images/local_mapping.PNG" width="436.5" height="406">
