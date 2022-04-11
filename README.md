@@ -9,7 +9,7 @@ The below tutorial assumes you are using Windows 10
 # Requirements
 
 + An installation of [Charles Proxy](https://www.charlesproxy.com/), this can also be done with [mitmproxy](https://mitmproxy.org/), though Charles is more user friendly.
-+ A Nintendo 3DS running [CFW](https://3ds.hacks.guide/) (Preferred, not required given Nintendo Video's servers use HTTP)
++ A Nintendo 3DS running [CFW](https://3ds.hacks.guide/)
 + A copy of Nintendo Video (USA, this is because the only available BOSS files are for US regions) installed to said 3DS (Can be found on certain sites)
 + BOSS data of your region and language (Currently only USA - English and USA - Spanish BOSS data is available.)
 
