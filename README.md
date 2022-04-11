@@ -45,6 +45,7 @@ To quote 3dbrew on the connection test sequence -
 Charles has a feature that allows you to respond to request with a locally stored file. This is what we'll be using to feed BOSS data stored on our PC to Nintendo Video. Seeing as we only have 3 backups of ESE_MD1 for USA region English/Spanish, we will be using one of them.
 
 To do this, in Charles open up '**Tools** > **Map Local**' and click '**Add**'. In the menu that opens input the following, mapping to your locally downloaded BOSS data - 
+
 <img src="https://github.com/blanc-cake/nintendo-video-tests/blob/main/tutorial%20images/local_mapping.PNG" width="436.5" height="406">
 
 Click '**OK**'.
@@ -52,4 +53,16 @@ Click '**OK**'.
 Optionally, you can also choose to only record connections from the URLs that we will be focusing on, ignoring others.
 
 For this, open up '**Proxy** > **Recording Settings** > **Include**' and add three URLs. One **http** on port **80** for `*.nintendowifi.net`, and two **https** on port **443** for `*.nintendo.net` and `*.nintendowifi.net`. Although the latter two aren't nessecary, they can help to visualise things.
+
 <img src="https://github.com/blanc-cake/nintendo-video-tests/blob/main/tutorial%20images/include_requests.PNG" width="540" height="352">
+
+# Install and test
+
+We can now get to testing the Charles setup. Install your CIA of Nintendo Video and open it up.
+
+Obviously, choose to receive both videos over Spotpass, as well as notifications for Nintendo Video.
+
+After setting up Nintendo Video, leave your 3DS open on the main Nintendo Video menu for a minute or two, and it will begin attemption to download BOSS data. If all is right, it should begin downloading your locally stored ESE_MD1 and fail to download MD2, MD3 and MD4. You should also recieve a notification telling you that Nintendo Video is moving.
+
+IMG20220407124904.jpg
+<img src="https://github.com/blanc-cake/nintendo-video-tests/blob/main/tutorial%20images/IMG20220407124904.jpg" width="624" height="1040">
