@@ -4,6 +4,6 @@ Language - English
 
 Region - USA
 
-BOSS Release Date - 
+BOSS Release Date - Thursday, April 23, 2015 2:46:05 AM (GMT)
 
 Date Archived - Apr 26, 2015
