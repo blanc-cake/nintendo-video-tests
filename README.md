@@ -64,4 +64,4 @@ Obviously, choose to receive both videos over Spotpass, as well as notifications
 
 After setting up Nintendo Video, leave your 3DS open on the main Nintendo Video menu for a minute or two, and it will begin attemption to download BOSS data. If all is right, it should begin downloading your locally stored ESE_MD1 and fail to download MD2, MD3 and MD4. You should also recieve a notification telling you that Nintendo Video is moving.
 
-<img src="https://github.com/blanc-cake/nintendo-video-tests/blob/main/tutorial%20images/IMG20220407124904.jpg" width="624" height="693">
+<img src="https://github.com/blanc-cake/nintendo-video-tests/blob/main/tutorial%20images/IMG20220407124904.jpg" width="624" height="832">
