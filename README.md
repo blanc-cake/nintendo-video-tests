@@ -8,7 +8,7 @@ This repo aims to explore methods of replicating this service by feeding archive
 
 # Requirements
 
-+ An installation of [Charles Proxy](https://www.charlesproxy.com/), this can also be done with [mitmproxy](https://mitmproxy.org/), though Charles is more user friendly.
++ An installation of [Charles Proxy](https://www.charlesproxy.com/), this can probably also be done with [mitmproxy](https://mitmproxy.org/), though Charles is more user friendly.
 + A Nintendo 3DS running [CFW](https://3ds.hacks.guide/)
 + A CIA of Nintendo Video (USA, this is because the only available BOSS files are for US regions) of which can be found on the Internet Archive.
 + BOSS data of your region and language (Currently only USA - English and USA - Spanish BOSS data is available.). [Link](https://github.com/blanc-cake/nintendo-video-tests/tree/main/boss-files/USA%20(Region%2045))
@@ -86,4 +86,4 @@ After setting up Nintendo Video, leave your 3DS open on the main menu for a minu
 
 My console's region is AUS - English, so that may be one of the reasons why videos don't show up after being downloaded. However the results will probably differ depending on the datas hex timestamp, the set date/time, the consoles region, or something entirely different.
 
-Huge thanks to the contributers of [Nintendo Videos page on 3dbrew](https://www.3dbrew.org/wiki/Nintendo_Video) (especially popoffka) for their hard work. I really recommend giving it a read.
+Huge thanks to the contributers of [Nintendo Videos page on 3dbrew](https://www.3dbrew.org/wiki/Nintendo_Video) (especially popoffka) for their hard work. I really recommend giving it a read if you're interested.
