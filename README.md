@@ -10,7 +10,7 @@ This repo aims to explore methods of replicating this service by feeding archive
 
 + An installation of [Charles Proxy](https://www.charlesproxy.com/), this can also be done with [mitmproxy](https://mitmproxy.org/), though Charles is more user friendly.
 + A Nintendo 3DS running [CFW](https://3ds.hacks.guide/)
-+ A copy of Nintendo Video (USA, this is because the only available BOSS files are for US regions) installed to said 3DS (Can be found on certain sites)
++ A CIA of Nintendo Video (USA, this is because the only available BOSS files are for US regions) of which can be found on the Internet Archive.
 + BOSS data of your region and language (Currently only USA - English and USA - Spanish BOSS data is available.)
 
 # Setup
@@ -21,7 +21,7 @@ This repo aims to explore methods of replicating this service by feeding archive
 
 If everything went smoothly, saving your settings and preforming a connection test should prompt you to accept or deny a connection from a local IP (Choose accept), then display a connection to 'http://conntest.nintendowifi.net/' on Charles. If so, you should now be able to move on to the following steps.
 
-# Map Local
+# Map Local and Include Requests
 
 When set up, (do not do this yet) Nintendo Video will attempt a connection to several URLs.
 
@@ -44,7 +44,7 @@ To quote 3dbrew on the connection test sequence -
 
 Charles has a feature that allows you to respond to request with a locally stored file. This is what we'll be using to feed BOSS data stored on our PC to Nintendo Video. Seeing as we only have 3 backups of ESE_MD1 for USA region English/Spanish, we will be using one of them.
 
-To do this, in Charles open up '**Tools** > **Map Local**' and click '**Add**'. In the menu that opens, input the following - 
+To do this, in Charles open up '**Tools** > **Map Local**' and click '**Add**'. In the menu that opens input the following, mapping to your locally downloaded BOSS data - 
 <img src="https://github.com/blanc-cake/nintendo-video-tests/blob/main/tutorial%20images/local_mapping.PNG" width="436.5" height="406">
 
 Click '**OK**'.
